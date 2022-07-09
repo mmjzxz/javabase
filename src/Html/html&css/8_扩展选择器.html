@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div > p {
+            border: 1px solid;
+        }
+        
+        input[type = 'text'] {
+	       border: 5px solid;
+        }
+        
+        a:link {
+	       color: pink;
+        }
+        
+        a:visited {
+	       color: red;
+        }
+        
+        a:active {
+           color: yellow;
+        }
+        
+        a:hover {
+           color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>大奉打更人</p>
+    </div>
+    <p>许七安</p>
+    <div>aaa</div>
+    <input type = "text">
+    <input type = "password">
+    <br><br>
+    <a href="#">大奉打更人111</a>
+</body>
+</html>
